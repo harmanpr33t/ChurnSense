@@ -1,28 +1,35 @@
-# ChurnSense
+# 🚀 ChurnSense
 
-Customer Churn Analytics & Prediction using Python, SQL and Machine Learning.
+### Customer Churn Analytics & Prediction using Python, SQL & Logistic Regression
+
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## Overview
+# 📌 Overview
 
-ChurnSense is an end-to-end customer churn analytics project that analyzes customer behavior and predicts whether a customer is likely to leave the company using Logistic Regression.
+ChurnSense is an end-to-end Customer Churn Analytics project developed using Python, SQL and Machine Learning.
+
+The objective of this project is to analyze customer behavior, identify important churn factors and predict whether a customer is likely to leave using Logistic Regression.
 
 ---
 
-## Features
+# ✨ Features
 
 - Customer Churn Analysis
 - Data Cleaning
-- Exploratory Data Analysis
-- Logistic Regression Model
-- Feature Importance Graph
-- SQL Analysis
+- Exploratory Data Analysis (EDA)
+- Logistic Regression Prediction
+- Feature Importance Analysis
+- SQL Business Queries
 - Business Insights
 
 ---
 
-## Tech Stack
+# 🛠 Tech Stack
 
 - Python
 - Pandas
@@ -33,26 +40,30 @@ ChurnSense is an end-to-end customer churn analytics project that analyzes custo
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
 ```
-
 ChurnSense
 │
-├── dataset
-├── src
-├── sql
-├── models
-├── screenshots
+├── dataset/
+├── dashboard/
+├── models/
+├── screenshots/
+├── sql/
+├── src/
+│   ├── main.py
+│   ├── preprocessing.py
+│   └── train_model.py
+│
 ├── README.md
 ├── requirements.txt
-└── LICENSE
-
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## Machine Learning
+# 🤖 Machine Learning Model
 
 Algorithm Used
 
@@ -60,24 +71,105 @@ Algorithm Used
 
 ---
 
-## Results
+# 📊 Project Workflow
 
-- Customer Churn Prediction
-- Feature Importance
-- Classification Report
-- Confusion Matrix
+Customer Dataset
+
+↓
+
+Data Cleaning
+
+↓
+
+Data Preprocessing
+
+↓
+
+Label Encoding
+
+↓
+
+Train Test Split
+
+↓
+
+Logistic Regression
+
+↓
+
+Prediction
+
+↓
+
+Evaluation
+
+↓
+
+Business Insights
 
 ---
 
-## Future Improvements
+# 📈 Outputs
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Feature Importance Graph
+
+---
+
+# 📷 Screenshots
+
+Add screenshots inside the **screenshots** folder.
+
+- Feature Importance
+- Terminal Output
+- Project Structure
+- Model Results
+
+---
+
+# 💼 Business Insights
+
+- Identify customers likely to churn.
+- Understand important churn factors.
+- Improve customer retention strategy.
+- Support business decision making.
+
+---
+
+# 🔮 Future Improvements
 
 - Power BI Dashboard
 - Streamlit Deployment
-- Random Forest Comparison
+- Random Forest
 - XGBoost
+- Hyperparameter Tuning
 
 ---
 
-## Author
+# ⚙ Installation
 
-Harmanpreet Singh
+```bash
+git clone https://github.com/harmanpr33t/ChurnSense.git
+
+cd ChurnSense
+
+pip install -r requirements.txt
+
+python src/main.py
+```
+
+---
+
+# 👨‍💻 Author
+
+**Harmanpreet Singh**
+
+GitHub
+
+https://github.com/harmanpr33t
+
+---
+
+## ⭐ If you like this project, don't forget to Star the repository.
