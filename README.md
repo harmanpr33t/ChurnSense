@@ -1,46 +1,42 @@
 # 🚀 ChurnSense
 
-### Customer Churn Analytics & Prediction using Python, SQL & Logistic Regression
+## Customer Churn Analytics & Prediction
 
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+An end-to-end Data Analytics project that analyzes customer churn using **Python, SQL, Power BI, and Logistic Regression**.
 
 ---
 
-# 📌 Overview
+## 📌 Project Overview
 
-ChurnSense is an end-to-end Customer Churn Analytics project developed using Python, SQL and Machine Learning.
-
-The objective of this project is to analyze customer behavior, identify important churn factors and predict whether a customer is likely to leave using Logistic Regression.
+Customer churn is a major business challenge for subscription-based companies. This project performs customer churn analysis using SQL, visualizes insights with Power BI, and predicts churn using a Logistic Regression model in Python.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-- Customer Churn Analysis
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Logistic Regression Prediction
-- Feature Importance Analysis
-- SQL Business Queries
+- Data Cleaning & Preprocessing
+- SQL Business Analysis
+- Power BI Dashboard
+- Customer Churn Prediction
+- Logistic Regression Model
 - Business Insights
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-Learn
-- SQL
+- MySQL
+- Power BI
+- Git & GitHub
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```
 ChurnSense
@@ -51,10 +47,6 @@ ChurnSense
 ├── screenshots/
 ├── sql/
 ├── src/
-│   ├── main.py
-│   ├── preprocessing.py
-│   └── train_model.py
-│
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
@@ -63,92 +55,68 @@ ChurnSense
 
 ---
 
-# 🤖 Machine Learning Model
+## 🤖 Machine Learning
 
-Algorithm Used
+Algorithm Used:
 
 - Logistic Regression
 
 ---
 
-# 📊 Project Workflow
+## 📊 SQL Analysis
 
-Customer Dataset
+The project includes SQL analysis for:
 
-↓
-
-Data Cleaning
-
-↓
-
-Data Preprocessing
-
-↓
-
-Label Encoding
-
-↓
-
-Train Test Split
-
-↓
-
-Logistic Regression
-
-↓
-
-Prediction
-
-↓
-
-Evaluation
-
-↓
-
-Business Insights
+- Total Customers
+- Customer Churn
+- Churn Rate
+- Contract Analysis
+- Gender Analysis
+- Internet Service Analysis
+- Payment Method Analysis
 
 ---
 
-# 📈 Outputs
+## 📈 Power BI Dashboard
 
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-- Feature Importance Graph
+Dashboard includes:
 
----
-
-# 📷 Screenshots
-
-Add screenshots inside the **screenshots** folder.
-
-- Feature Importance
-- Terminal Output
-- Project Structure
-- Model Results
+- Customer Distribution
+- Churn Analysis
+- Contract Analysis
+- Gender Analysis
+- Internet Service Analysis
+- Payment Method Analysis
 
 ---
 
-# 💼 Business Insights
+# 📸 Screenshots
 
-- Identify customers likely to churn.
-- Understand important churn factors.
-- Improve customer retention strategy.
-- Support business decision making.
+## Power BI Dashboard
 
----
-
-# 🔮 Future Improvements
-
-- Power BI Dashboard
-- Streamlit Deployment
-- Random Forest
-- XGBoost
-- Hyperparameter Tuning
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
-# ⚙ Installation
+## SQL Analysis
+
+![SQL](screenshots/sqlquery.png)
+
+---
+
+## Terminal Output
+
+![Terminal](screenshots/terminal_output.png)
+
+---
+
+## Project Structure
+
+![Structure](screenshots/project_structure.png)
+
+---
+
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/harmanpr33t/ChurnSense.git
@@ -162,14 +130,31 @@ python src/main.py
 
 ---
 
-# 👨‍💻 Author
+## 💼 Business Insights
+
+- Month-to-month customers show higher churn.
+- Contract type influences customer retention.
+- Internet service impacts churn behavior.
+- Customer segmentation helps improve retention strategies.
+
+---
+
+## 🔮 Future Improvements
+
+- Random Forest
+- XGBoost
+- Streamlit Deployment
+- Advanced Power BI Dashboard
+
+---
+
+## 👨‍💻 Author
 
 **Harmanpreet Singh**
 
-GitHub
-
+GitHub:
 https://github.com/harmanpr33t
 
 ---
 
-## ⭐ If you like this project, don't forget to Star the repository.
+⭐ If you found this project useful, don't forget to star the repository.
